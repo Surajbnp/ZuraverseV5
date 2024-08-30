@@ -4,10 +4,7 @@ import styles from "../styles/homepage.module.css";
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import Crousel from "../components/Crousel";
 import ButtonComp from "../components/ButtonComp";
-import Fade from "react-reveal/Fade";
-import Shake from "react-reveal/Shake";
-import Roll from "react-reveal/Roll";
-// import Footer from "../components/Footer";
+
 
 
 const Home: NextPage = () => {
@@ -137,7 +134,7 @@ const Home: NextPage = () => {
             justify={"center"}
             alignItems={"center"}
           >
-            <Text fontSize={"120px"}>IT'S TIME TO</Text>
+            <Text fontSize={"120px"}>TIME TO</Text>
               <Text fontSize={"140px"} className={styles.yellowTxt}>
                 PLAY NOW
               </Text>

@@ -3,7 +3,7 @@ import styles from "../styles/register.module.css";
 import { Box, Text } from "@chakra-ui/react";
 import { ConnectEmbed, useAddress } from "@thirdweb-dev/react";
 
-const register = () => {
+const Register = () => {
   const [walletAddress, setWalletAddress] = useState("");
   const address = useAddress();
 
@@ -11,10 +11,8 @@ const register = () => {
     if (address) {
       setWalletAddress(address);
     }
-    axios.get('/api/user')
+    axios.get("/api/user");
   };
-
-  
 
   return (
     <Box className={styles.cont}>
@@ -30,4 +28,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;

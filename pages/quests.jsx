@@ -399,7 +399,7 @@ const Quests = () => {
         </Box>
         <Box className={styles.dailyTask}>
           <Box>
-            <Text className={styles.heading}>Today's Task</Text>
+            <Text className={styles.heading}>Today Task</Text>
             <Text color={"grey"}>No Task Today, Comeback Tommarow</Text>
           </Box>
         </Box>
