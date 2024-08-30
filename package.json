@@ -1,0 +1,49 @@
+{
+  "name": "zvm5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@readyplayerme/react-avatar-creator": "^0.5.0",
+    "@readyplayerme/visage": "^5.2.0",
+    "@thirdweb-dev/react": "^4",
+    "@thirdweb-dev/sdk": "^4",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "ethers": "^5",
+    "framer-motion": "^11.0.2",
+    "hero-slider": "^3.2.1",
+    "mongoose": "^8.3.2",
+    "next": "^13",
+    "nodemailer": "^6.9.13",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-icons": "^5.0.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-reveal": "^1.2.2",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.5",
+    "react-youtube-music-player": "^1.0.5",
+    "styled-components": "^6.1.11",
+    "thirdweb": "^5.2.0",
+    "use-sound": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "@types/react": "^18",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13",
+    "typescript": "^5.4.5"
+  }
+}

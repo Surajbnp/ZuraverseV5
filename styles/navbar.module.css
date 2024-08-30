@@ -1,0 +1,101 @@
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 10vh;
+}
+
+.cont > div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont > div:nth-child(1) {
+  width: 10%;
+  overflow: hidden;
+}
+
+.cont > div:nth-child(2) {
+  width: 70%;
+  border: 1px solid #404040;
+}
+
+.cont > div:nth-child(3) {
+  width: 20%;
+}
+
+.links {
+  display: flex;
+}
+
+.links > div {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.links > div:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+.loginBtn {
+  display: flex;
+}
+
+.loginBtn > div {
+  display: flex;
+  flex-grow: 1;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
+}
+
+.loginBtn > div:nth-child(1) {
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%, 0 30%);
+}
+
+.loginBtn > div:nth-child(2) {
+  clip-path: polygon(0% 0%, 100% 0, 100% 78%, 90% 100%, 0% 100%);
+}
+
+.videoButton {
+  position: relative;
+  width: 80px;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  filter: brightness(2);
+}
+
+.videoText {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  background: none;
+}
+
+.logo {
+  border: none;
+}

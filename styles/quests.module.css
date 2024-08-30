@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.container {
+  border: 1px solid #404040;
+  width: 100%;
+  height: 90vh;
+  padding: 40px;
+  overflow-y: scroll;
+  background-color: black;
+  color: white;
+}
+
+.container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.main {
+  width: 70%;
+  margin: auto;
+}
+
+.banner {
+  width: 100%;
+  height: 40vh;
+  border: 1px solid #404040;
+  border-radius: 15px;
+  position: relative;
+}
+
+.taskTrackBox {
+  background-color: #282829;
+  width: 300px;
+  height: 200px;
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+  top: 220px;
+  border-radius: 15px;
+  border: 1px solid #404040;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskCont {
+  width: 100%;
+  height: fit-content;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.taskCont > div {
+  border: 1px solid #404040;
+  text-align: start;
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 7px;
+}
+
+.taskCont > div:nth-child(1) {
+  width: 70%;
+}
+
+.taskCont > div:nth-child(2) {
+  width: fit-content;
+  height: fit-content;
+}
+
+.participants {
+  width: 100%;
+}
+
+.dailyTask {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #404040;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: start;
+  border-radius: 5px;
+}
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}

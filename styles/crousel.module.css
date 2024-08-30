@@ -1,0 +1,12 @@
+.container {
+  height: fit-content;
+  overflow: hidden;
+  margin-top: 20px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px,
+    rgba(243, 243, 243, 0.12) 0px -12px 30px, rgba(253, 252, 252, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(202, 185, 185, 0.09) 0px -3px 5px;
+}
+
+.container > img {
+  object-fit: cover;
+}

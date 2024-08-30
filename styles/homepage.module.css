@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.container {
+  border: 1px solid #404040;
+  height: 90vh;
+  overflow-y: scroll;
+  background-color: black;
+  color: white;
+}
+
+.container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.updateBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  margin-top: 30px;
+}
+
+.updateBox > div {
+  width: 100%;
+  height: inherit;
+}
+
+.updateBox > div:nth-child(1) {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 180px;
+  flex-direction: column;
+}
+
+.updateBox > div:nth-child(2) {
+  padding: 40px;
+}
+
+.updateTxt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.fieldset {
+  border: 1.5px solid white;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.yellowTxt {
+  width: fit-content;
+  transform: rotate(5deg);
+  color: black;
+  animation: backgroundColorChange 5s infinite;
+  padding: 0px 40px;
+}
+
+.updateBox > div:nth-child(1) p {
+  line-height: 10rem;
+}
+
+.updateBox > div:nth-child(2) {
+  width: 60%;
+}
+
+.gameplay {
+  width: 100%;
+  height: 85vh;
+  padding: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.gameplay > div {
+  height: 50vh;
+  width: 100%;
+}
+
+.gameplayTxt {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 180px;
+}
+
+.gameVid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.gameVid > div {
+  width: 60%;
+  height: 100%;
+}
+
+.gameVid > div:nth-child(1) {
+  width: 40%;
+  padding: 20px;
+}
+
+.video {
+  border: 5px solid #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  filter: brightness(0.9);
+}
+
+.gameVid > div:nth-child(2) {
+  text-align: start;
+  padding: 40px;
+}
+
+.gamevidHeading {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.legend {
+  background-color: #ae388b;
+  text-align: start;
+  margin-left: 30px;
+}
+
+@keyframes backgroundColorChange {
+  0% {
+    background-color: white;
+  }
+  33% {
+    background-color: #e983d8;
+  }
+  66% {
+    background-color: #0074b7;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.playSec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  height: fit-content;
+  flex-direction: column;
+  padding: 40px;
+  border-top: 1px solid #404040;
+}
